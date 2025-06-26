@@ -30,12 +30,12 @@
 #ifndef TPCircularBuffer_AudioBufferList_h
 #define TPCircularBuffer_AudioBufferList_h
 
+#include "TPCircularBuffer.h"
+#include <AudioToolbox/AudioToolbox.h>
+
 #ifdef __cplusplus
 extern "C" {
 #endif
-
-#include "TPCircularBuffer.h"
-#include <AudioToolbox/AudioToolbox.h>
 
 #define kTPCircularBufferCopyAll UINT32_MAX
 
