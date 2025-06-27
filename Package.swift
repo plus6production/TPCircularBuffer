@@ -7,12 +7,12 @@ let package = Package(
     products: [
         .library(
             name: "TPCircularBuffer",
-            targets: ["CTPCircularBuffer"]
+            targets: ["CxxTPCircularBuffer"]
         ),
     ],
     targets: [
         .target(
-            name: "CTPCircularBuffer",
+            name: "CxxTPCircularBuffer",
             swiftSettings: [.interoperabilityMode(.Cxx)]
         ),
     ]

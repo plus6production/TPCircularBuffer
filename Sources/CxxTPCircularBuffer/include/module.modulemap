@@ -1,0 +1,12 @@
+//
+//  module.modulemap
+//  TPCircularBuffer
+//
+//  Created by Charles Kiorpes on 6/26/25.
+//
+
+module CxxTPCircularBuffer {
+    header "CxxTPCircularBuffer.hpp"
+
+    export *
+}
